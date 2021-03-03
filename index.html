@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>La Petite Pellote</title>
+        <title>La Petite Pelote</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel = "icon" href = "img/wool.png" type = "image/png" sizes = "16x16">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- custom css -->
@@ -28,7 +29,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">La Petite Pellote <span>.</span></a>
+              <a class="navbar-brand" href="#">La Petite Pelote <span>.</span></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,6 +41,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#about">Présentation</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#galerie">Galerie</a>
+                  </li>
               </div>
             </div>
           </nav>
@@ -48,7 +52,7 @@
         <!-- header -->
         <header class = "header" id = "home">
           <div class = "container">
-            <h1 class = "header-title text-center">La Petite Pellote</h1>
+            <h1 class = "header-title text-center">La Petite Pelote</h1>
             <h4 class = "header-sub text-center">La passion de la laine</h4>
           </div>
         </header>
@@ -56,11 +60,11 @@
     
         <!-- about -->
         <section id = "about" class = "about container section-py">
-            <h1>Bienvenue sur ma boutique !</h1>
-            <img src="img/me.jpg" class="rounded float-end aboutmeImg" alt="">
+            <h1 class="titleAbout">Bienvenue sur ma boutique !</h1>
+            <img src="img/about.jpg" class="rounded float-end aboutmeImg" alt="">
             <p class="paraAbout">
                 Bonjour tous le monde!<br>
-                Je tricote depuis plusieur années, et je vend maintenant mes fabrications !<br>
+                Je tricote depuis plusieur années,<br> et je vend maintenant mes fabrications !<br>
                 Sur ce site vous pouvez commander:<br>
                     - Des pulls<br>
                     - Des Chaussettes<br>
@@ -80,7 +84,7 @@
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <div class="card-deck">
-                        <div class="card border border-dark">
+                        <div class="card" style="border-color: #FCB6D0">
                             <img class="card-img-top" src="img/scarf.jpg"
                             alt="Card image cap">
                             <div class="card-body">
@@ -96,7 +100,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card-deck">
-                        <div class="card border border-dark">
+                        <div class="card" style="border-color: #FCB6D0">
                             <img class="card-img-top" src="img/pulls.jpg"
                             alt="Card image cap">
                             <div class="card-body">
@@ -112,7 +116,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card-deck">
-                        <div class="card border border-dark">
+                        <div class="card" style="border-color: #FCB6D0">
                             <img class="card-img-top" src="img/socks.jpg"
                             alt="Card image cap">
                             <div class="card-body">
@@ -128,7 +132,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card-deck">
-                        <div class="card border border-dark">
+                        <div class="card" style="border-color: #FCB6D0">
                             <img class="card-img-top" src="img/gloves.jpg"
                             alt="Card image cap">
                             <div class="card-body">
@@ -144,7 +148,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card-deck">
-                        <div class="card border border-dark">
+                        <div class="card" style="border-color: #FCB6D0">
                             <img class="card-img-top" src="img/perso.jpg"
                             alt="Card image cap">
                             <div class="card-body">
@@ -160,7 +164,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card-deck">
-                        <div class="card border border-dark">
+                        <div class="card" style="border-color: #FCB6D0">
                             <img class="card-img-top" src="img/accessories.jpg"
                             alt="Card image cap">
                             <div class="card-body">
@@ -176,7 +180,61 @@
                 </div>
             </div>
         </section>
+        <div class="h-divider">
+            <div class="shadow"></div>
+            <div class="text2"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDYwIDYwIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGlkPSJQYWdlLTEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PGcgaWQ9IjAxNC0tLUtuaXR0aW5nIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTEpIj48cGF0aCBpZD0iU2hhcGUiIGQ9Im00Mi41MSA1MS40N2MtOC40ODQyNTk2IDUuMjAwNjU1Ny0xOS4zMDA4NDI2IDQuNjExNDU2NS0yNy4xNy0xLjQ4LjIyLjAxLjQ0LjAxLjY2LjAxIDMuOTY1MDU1Mi4wMDQ4NjQ0IDcuOTAxNzYwNi0uNjY4MTYzNCAxMS42NC0xLjk5IDQuNjQ4MTk5NiAyLjIxNDkwMzEgOS43MjE0Njg0IDMuMzk1MzY3OCAxNC44NyAzLjQ2eiIgZmlsbD0iI2U5MWU2MyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTQ4LjQ0IDQ2LjM1Yy0xLjY3NDY5MTYgMi4wMjQxODY3LTMuNjc1NTE5MiAzLjc1NDYzMjEtNS45MiA1LjEyaC0uMDFjLTUuMTQ4NTMxNi0uMDY0NjMyMi0xMC4yMjE4MDA0LTEuMjQ1MDk2OS0xNC44Ny0zLjQ2IDIuNzg0MTEyOC0uOTcyNzY5NiA1LjQyOTY5MTQtMi4zMDM5NjI5IDcuODctMy45NmguMDFjNC4wMzY5MTQ1IDEuNTM1NDMxMiA4LjMyMDk1NCAyLjMxODM1MyAxMi42NCAyLjMxLjA5MzQ0NjQuMDAxODQ1My4xODY5MjMzLS4wMDE0OTMyLjI4LS4wMXoiIGZpbGw9IiNhZDE0NTciLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im01MS41MiA0MS42MWMtLjgyNzQ3MDEgMS43MDA4NTQ1LTEuODYxOTc4IDMuMjkyOTIxOC0zLjA4IDQuNzQtLjA5MzA3NjcuMDA4NTA2OC0uMTg2NTUzNi4wMTE4NDUzLS4yOC4wMS00LjMxOTA0Ni4wMDgzNTMtOC42MDMwODU1LS43NzQ1Njg4LTEyLjY0LTIuMzEgMi4wOTc4NjIzLTEuNDA0NDkzNSA0LjAzMzA4MTQtMy4wMzc4NTg3IDUuNzctNC44NyAzLjM0MDEyNzcgMS4wODAxMzQyIDYuNzYwOTI5MyAxLjg5MjcgMTAuMjMgMi40M3oiIGZpbGw9IiNlOTFlNjMiLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im00MS4yOSAzOS4xOGMtLjIzLjI0My0uNDc0LjQ3NC0uNzExLjcxIDIuNjE0MTgxMi43MTU1NjQgNS4yNjUwMjQ5IDEuMjg5NzI5OSA3Ljk0MSAxLjcyLS44MTA3NDMzIDEuNjYzODE2Mi0xLjgxOTczNTggMy4yMjM0NzM0LTMuMDA1IDQuNjQ1Ljg3NC4wNjQgMS43NTUuMSAyLjY0NS4xLjA5MzQ0NjQuMDAxODQ1My4xODY5MjMzLS4wMDE0OTMyLjI4LS4wMSAxLjIxODAyMi0xLjQ0NzA3ODIgMi4yNTI1Mjk5LTMuMDM5MTQ1NSAzLjA4LTQuNzQtMy40Njg5MzIxLS41MzU2NjYyLTYuODg5NzMxNC0xLjM0NjU1OTUtMTAuMjMtMi40MjV6IiBmaWxsPSIjYWQxNDU3Ii8+PHBhdGggaWQ9IlNoYXBlIiBkPSJtNTMuNTQgMzUuNjZjLS40MDA1NDU2IDIuMDY1NzIwMS0xLjA4MDEwMzIgNC4wNjczODc0LTIuMDIgNS45NS0zLjQ2OTA3MDctLjUzNzMtNi44ODk4NzIzLTEuMzQ5ODY1OC0xMC4yMy0yLjQzIDEuNjY4OTI3My0xLjczMjY3NDMgMy4xNTA0NTU0LTMuNjM2NTM4NSA0LjQyLTUuNjggMi41MjM1OTA5IDEuMDAyODc4MiA1LjE0OTE1NCAxLjcyNzE3MTQgNy44MyAyLjE2eiIgZmlsbD0iI2FkMTQ1NyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTU0IDMxYy4wMDAwMDU5IDEuNTY0NjY3Mi0uMTU0MDcwOSAzLjEyNTUzMjQtLjQ2IDQuNjYtMi42ODA4NDYtLjQzMjgyODYtNS4zMDY0MDkxLTEuMTU3MTIxOC03LjgzLTIuMTYgMi43NDk1OTc3LTQuMzk0MjA4NCA0LjQ3ODY5NTItOS4zNDkxMzIxIDUuMDYtMTQuNSAyLjEyMzY1NjIgMy42NDIwMDE3IDMuMjM4NTY0NCA3Ljc4NDA3NTYgMy4yMyAxMnoiIGZpbGw9IiNlOTFlNjMiLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im01MC43NyAxOWMtLjE4ODMwMjQgMS42MDkzODYyLS40ODkwMzc1IDMuMjAzNjE2My0uOSA0Ljc3MSAxLjE2NzA3MzkgMy42NDUxMzg2IDEuNDMwOTc3MiA3LjUxOTI2NzYuNzY5IDExLjI4OS45NTMuMjMyIDEuOTE2LjQ0MSAyLjkuNiAxLjEzNjQ0MDUtNS43MDUyNDAxLjE1MTg1NTItMTEuNjI5MTA4Ny0yLjc2OS0xNi42NnoiIGZpbGw9IiNhZDE0NTciLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im01MC43NyAxOWMtLjU4MTMwNDggNS4xNTA4Njc5LTIuMzEwNDAyMyAxMC4xMDU3OTE2LTUuMDYgMTQuNS0xLjI2OTU0NDYgMi4wNDM0NjE1LTIuNzUxMDcyNyAzLjk0NzMyNTctNC40MiA1LjY4LTEuNzM2OTE4NiAxLjgzMjE0MTMtMy42NzIxMzc3IDMuNDY1NTA2NS01Ljc3IDQuODdoLS4wMWMtMi40NDAzMDg2IDEuNjU2MDM3MS01LjA4NTg4NzIgMi45ODcyMzA0LTcuODcgMy45Ni0zLjczODIzOTQgMS4zMjE4MzY2LTcuNjc0OTQ0OCAxLjk5NDg2NDQtMTEuNjQgMS45OS0uMjIgMC0uNDQgMC0uNjYtLjAxLTEuODUwMjQ0OC0xLjQxNjU3NTktMy40NzgyNDgzLTMuMTAxODc5Ny00LjgzLTUgLjE2LjAxLjMzLjAxLjQ5LjAxIDE4LjE2MzEzMDYtLjAwMDE3MTEgMzMuMzA3OTcwOC0xMy44OTQxNjEzIDM0Ljg3LTMxLjk5IDEuOTU0NDcwNyAxLjcxMDg2NjggMy42MTA0NDU2IDMuNzM1MjExNyA0LjkgNS45OXoiIGZpbGw9IiNlOTFlNjMiLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im00NS44NyAxMy4wMWMtLjA3OS45MjMtLjIgMS44MzMtLjM1MSAyLjczNC44NDE2NDM0IDEuMDE5MjgzIDEuNTk0NzEyMyAyLjEwODU3MzMgMi4yNTEgMy4yNTYtMS45MzE0MDc5IDE2LjgxNDg4MTktMTUuNjIzMzM0NCAyOS44MzU1NjEzLTMyLjUxNCAzMC45Mi4xMDkuMDg1LS4wMTYuMDguNzQ0LjA4IDE3Ljc4MjEyMjItLjAwMDM0NDEgMzIuNzM3NzU3NS0xMy4zMzQzODc2IDM0Ljc3LTMxLTEuMjg5NTU0NC0yLjI1NDc4ODMtMi45NDU1MjkzLTQuMjc5MTMzMi00LjktNS45OXoiIGZpbGw9IiNhZDE0NTciLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im00NS44NyAxMy4wMWMtMS41NjIwMjkyIDE4LjA5NTgzODctMTYuNzA2ODY5NCAzMS45ODk4Mjg5LTM0Ljg3IDMxLjk5LS4xNiAwLS4zMyAwLS40OS0uMDEtMS4xMjk5MzA2MS0xLjU1Nzg5MTUtMi4wNjA0OTIwMS0zLjI1MTA0MjktMi43Ny01LjA0IDE2Ljg5ODg2OTUtLjgzNjE1ODkgMzAuNzc5MTUyMi0xMy42NDI4OTg0IDMyLjk3LTMwLjQyIDEuODY2NzE3NC45MjYwMzUyIDMuNjAxOTM5NSAyLjA5NjMwMTIgNS4xNiAzLjQ4eiIgZmlsbD0iI2FkMTQ1NyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTQwLjcxIDkuNTNjLTIuMTkwODQ3OCAxNi43NzcxMDE2LTE2LjA3MTEzMDUgMjkuNTgzODQxMS0zMi45NyAzMC40Mi0uNzAwNTcxMzMtMS43MTUyMjI5LTEuMTk0MDU2OTgtMy41MDc4ODUxLTEuNDctNS4zNCAxLjkwNDgzMzYyLS4yODU2NTAyIDMuNzgxNjk1NC0uNzMzOTU1OSA1LjYxLTEuMzQgMi4yNTQ2ODczLS43MzA5Njk2IDQuNDI2NTUxNy0xLjY5NjI0MjcgNi40OC0yLjg4IDIuMDY1MjY1NS0xLjE3NTQ0NDYgNC4wMDIzOTY4LTIuNTYyOTQgNS43OC00LjE0IDEuODU0NjM4Ni0xLjYzMTEyMyAzLjUzMDcxMzgtMy40NTQ2OTI4IDUtNS40NCAyLjkxOTc0NzUtMy45Mzk1Njc5IDQuOTc0NTgyNi04LjQ1MTM0NTIgNi4wMy0xMy4yNCAxLjkyMzQ4MzEuNDExNjIwNzQgMy43ODU2MTI4IDEuMDcwNDI0NzUgNS41NCAxLjk2eiIgZmlsbD0iI2U5MWU2MyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTM1LjE3IDcuNTdjLTEuMDU1NDE3NCA0Ljc4ODY1NDgtMy4xMTAyNTI1IDkuMzAwNDMyMS02LjAzIDEzLjI0LTIuODYzMDQ5Mi0zLjgxNDg0MDYtNC45NzcwMzAyLTguMTM3ODEyOS02LjIzLTEyLjc0IDIuMjk1NDY2OS0uNzEzODQzODYgNC42ODYxMDMxLTEuMDc0NjMwOTkgNy4wOS0xLjA3IDEuNzM5MjE4LS4wMDM3NzczNSAzLjQ3MzM3ODguMTg3NDE2NCA1LjE3LjU3eiIgZmlsbD0iI2FkMTQ1NyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTI5LjE0IDIwLjgxYy0xLjQ2OTI4NjIgMS45ODUzMDcyLTMuMTQ1MzYxNCAzLjgwODg3Ny01IDUuNDQtMy4zNzcwMTc0LTQuNzA5OTAwNC01LjU0NzA5NzYtMTAuMTc2MzA1Mi02LjMyLTE1LjkyIDEuNTk4OTQzMy0uOTU2NTY2MzcgMy4zMDgxMTY5LTEuNzE1NDUyODUgNS4wOS0yLjI2IDEuMjUyOTY5OCA0LjYwMjE4NzEgMy4zNjY5NTA4IDguOTI1MTU5NCA2LjIzIDEyLjc0eiIgZmlsbD0iI2U5MWU2MyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTI0LjE0IDI2LjI1Yy0xLjc3NzYwMzIgMS41NzcwNi0zLjcxNDczNDUgMi45NjQ1NTU0LTUuNzggNC4xNC0zLjE3NTkyOTctNC43NTc4ODkxLTUuMTU1NDEyOS0xMC4yMTI2MTczLTUuNzctMTUuOSAxLjUzNTU3MjYtMS42Mjk0NzgxIDMuMjk2ODIyMy0zLjAzMDM5NTYgNS4yMy00LjE2Ljc3MjkwMjQgNS43NDM2OTQ4IDIuOTQyOTgyNiAxMS4yMTAwOTk2IDYuMzIgMTUuOTJ6IiBmaWxsPSIjYWQxNDU3Ii8+PHBhdGggaWQ9IlNoYXBlIiBkPSJtMTguMzYgMzAuMzljLTIuMDUzNDQ4MyAxLjE4Mzc1NzMtNC4yMjUzMTI3IDIuMTQ5MDMwNC02LjQ4IDIuODgtMi4wMDQ3NzE1OS0zLjUzNjQ3MjQtMy4zODE3OTQ2OC03LjM5MzQ5MDQtNC4wNy0xMS40IDEuMTI0NzcyNzktMi43MzM2MjggMi43NDUzNTI2LTUuMjM1Njk0NiA0Ljc4LTcuMzguNjE0NTg3MSA1LjY4NzM4MjcgMi41OTQwNzAzIDExLjE0MjExMDkgNS43NyAxNS45eiIgZmlsbD0iI2U5MWU2MyIvPjxwYXRoIGlkPSJTaGFwZSIgZD0ibTExLjg4IDMzLjI3Yy0xLjgyODMwNDYuNjA2MDQ0MS0zLjcwNTE2NjM4IDEuMDU0MzQ5OC01LjYxIDEuMzQtLjY1MTM1MTM1LTQuMzA3NzQ1NS0uMTE5MDI1NjYtOC43MTE1MzA4IDEuNTQtMTIuNzQuNjg4MjA1MzIgNC4wMDY1MDk2IDIuMDY1MjI4NDEgNy44NjM1Mjc2IDQuMDcgMTEuNHoiIGZpbGw9IiNhZDE0NTciLz48Y2lyY2xlIGlkPSJPdmFsIiBjeD0iNDgiIGN5PSI1IiBmaWxsPSIjZmZkYzAwIiByPSIzIi8+PGNpcmNsZSBpZD0iT3ZhbCIgY3g9IjU2IiBjeT0iMTMiIGZpbGw9IiNmZmRjMDAiIHI9IjMiLz48cGF0aCBpZD0iU2hhcGUiIGQ9Im01NiA5Yy0yLjIwOTEzOSAwLTQgMS43OTA4NjEtNCA0IC4wMDQzOTM2LjY2OTQ3NS4xNzkyMjE3IDEuMzI2ODAxMS41MDggMS45MWwtMS45NzQgMS44NTRjLTEuNzA5NjMwNi0yLjQ1NzExMTctMy44NDI4ODgzLTQuNTkwMzY5NC02LjMtNi4zbDEuODU2LTEuOTcyYy41ODMxOTg5LjMyODc3ODM0IDEuMjQwNTI1LjUwMzYwNjQ0IDEuOTEuNTA4IDEuODQxMTgzOS4wMTI3MjgyIDMuNDU2NjI3NC0xLjIyNDYyNzcyIDMuOTIzOTQ2NC0zLjAwNTU2Mzc2LjQ2NzMxOS0xLjc4MDkzNjAzLS4zMzI0Ni0zLjY1MjA0ODIxLTEuOTQyNjgwMi00LjU0NDk3MTExLTEuNjEwMjIwMS0uODkyOTIyOS0zLjYyMDkzOTUtLjU4MDMyOTU3LTQuODg0MDgwMS43NTkyOTU4My0xLjI2MzE0MDUgMS4zMzk2MjU0LTEuNDU3MTIyNCAzLjM2NTIzMTA2LS40NzExODYxIDQuOTIwMjM5MDRsLTIuMTA4IDIuMjQ1Yy0xMC4wNDY3OTI4LTUuODI3ODUwNDQtMjIuNzg0NzcwOS0zLjk2MzEzMDAzLTMwLjczOTUwMiA0LjQ5OTk3NDUtNy45NTQ3MzEyMSA4LjQ2MzEwNDYtOS4wMjc3Nzk0MyAyMS4yOTIwNDk4LTIuNTg5NDk4IDMwLjk1OTAyNTVsLTguOTE4IDkuNDgyYy0uMzc4MzE1MDUuNDAyNjE1Ni0uMzU4NjE1NTggMS4wMzU2ODQ5LjA0NCAxLjQxNHMxLjAzNTY4NDk1LjM1ODYxNTYgMS40MTQtLjA0NGw4LjY1OS05LjIwOGMxLjIxMzY5MDYgMS41MzM2ODk1IDIuNjAxMzEwNSAyLjkyMTMwOTQgNC4xMzUgNC4xMzVsLTkuMjA4IDguNjU5Yy0uNDAyNjE1NTguMzc4MzE1MS0uNDIyMzE1MDUgMS4wMTEzODQ0LS4wNDQgMS40MTRzMS4wMTEzODQ0Mi40MjIzMTUxIDEuNDE0LjA0NGw5LjQ4Mi04LjkxOGMxMC40NTQxMTU4IDYuOTY5NzQyNiAyNC40NjA1NDQ1IDUuMDc0OTA4OSAzMi42ODctNC40MjJsNC4yLjM2MWMxLjEzNTU2NTYuMDk4NzIxMSAxLjk5MTkxOTYgMS4wNzQzMDUgMS45NDI2MTcgMi4yMTMwODY5LS4wNDkzMDI1IDEuMTM4NzgyLS45ODY3NjgzIDIuMDM2NzA0LTIuMTI2NjE3IDIuMDM2OTEzMS0yLjEzNjQyODEuMDAyMjA0OC0zLjg2Nzc5NTIgMS43MzM1NzE5LTMuODcgMy44N3Y0LjEzYzAgLjU1MjI4NDcuNDQ3NzE1MyAxIDEgMXMxLS40NDc3MTUzIDEtMXYtNC4xM2MuMDAxMTAzMi0xLjAzMjcwNTYuODM4Mjk0LTEuODY5NDQ4OSAxLjg3MS0xLjg3IDIuMjA3OTcyNy0uMDA0ODI4OCA0LjAyMTQxOTgtMS43NDU4NjU2IDQuMTE2MTY2Ny0zLjk1MTgwOTkuMDk0NzQ3LTIuMjA1OTQ0Mi0xLjU2MjczOTQtNC4wOTYwNjAyLTMuNzYyMTY2Ny00LjI5MDE5MDFsLTIuODg2LS4yNDhjNS43MTA1ODI3LTcuOTcxMDAwOSA2LjIxNDM0NzMtMTguNTUwNDQ5OCAxLjI4Ny0yNy4wMjhsMi4yNDUtMi4xMDhjMS40MzgzNjQ0LjkxNTg4NjIgMy4yOTkyMTM1LjgxOTIxNzEgNC42MzQ5MzI5LS4yNDA3Nzk3IDEuMzM1NzE5NS0xLjA1OTk5NjkgMS44NTI1OTE1LTIuODUwMjMzNiAxLjI4NzQwNTQtNC40NTkwNTQ0LS41NjUxODYyLTEuNjA4ODIwOC0yLjA4ODE0ODgtMi42ODI0NTQyOC0zLjc5MzMzODMtMi42NzQxNjU5em0tOC02Yy44OTg3MTA5LS4wMDQwNzU1OCAxLjY4OTc3NDcuNTkxODE0NDYgMS45MzM4ODEzIDEuNDU2NzQ3OTEuMjQ0MTA2NS44NjQ5MzM0Ni0uMTE4Njk4OSAxLjc4NjQ3NTE5LS44ODY5MzU1IDIuMjUyODU1MjVzLTEuNzUzMjE4OS4zNjMwNTE0Ny0yLjQwNzk0NTgtLjI1MjYwMzE2di0uMDA2bC0uMDEyLS4wMDdjLS41ODgyNDUzLS41NjM2OTIyNC0uNzc1NzYyNi0xLjQyNzg2Njc4LS40NzQwNTE5LTIuMTg0NjcwNjVzMS4wMzIzMzU4LTEuMjU0OTQ3NzcgMS44NDcwNTE5LTEuMjU5MzI5MzV6bS0zOC43ODEgMzcuODQ3YzE2LjI3MjA4NjktMS40Mjc3NDM4IDI5LjUzMDcyODktMTMuNjU3MDM5MSAzMi4yNjYtMjkuNzYxIDEuMTc4MDMyNy42ODEwMDY5IDIuMjkzMzk1NiAxLjQ2NTA3MzkgMy4zMzMgMi4zNDMtMS44NDU1ODIgMTcuMjk4Mzg3NC0xNi4zODI4MjQzIDMwLjQ1NTAyNDItMzMuNzc5IDMwLjU3MS0uNjg4ODcxMy0xLjAwMTM1NjQtMS4yOTc0MzY3NC0yLjA1NTY0NTktMS44Mi0zLjE1M3ptLTIuMjE5LTkuODQ3Yy4wMDA3ODQ1NC0xLjgwNzkyODcuMjE1MjcyNjQtMy42MDk0MjczLjYzOS01LjM2Ny42NzcwOTkzOSAyLjQzMTUyMDIgMS42MDcxODAwMiA0Ljc4NTM3ODMgMi43NzUgNy4wMjMtMS4wODEyNDkzNS4zMTI2ODUyLTIuMTc3NjU2NzMuNTcwMzQ5Mi0zLjI4NS43NzItLjA4NTQzNTQxLS44MDY1MjAxLS4xMjg0OTQ2LTEuNjE2OTY3NS0uMTI5LTIuNDI4em01LjM0NyAxLjAyOWMtMS42ODU4NTE1LTMuMTQ4NDgzNC0yLjg2Njg5OTk3LTYuNTQyMTQxOS0zLjUtMTAuMDU3Ljc5MTY1MTYxLTEuODQyMDUxMSAxLjgyMDcwMzEtMy41NzI3MTMzIDMuMDYxLTUuMTQ4LjgwOTY2OTQgNC42NzU0MTE1IDIuNTE3MTAyMyA5LjE0OTc4MjIgNS4wMjggMTMuMTc2LTEuNDc3MzE2OC43ODkwMjc4LTMuMDExMjAzNyAxLjQ2NzIyNzEtNC41ODkgMi4wMjl6bTIzLjU0My0yMy4yNjFjMS4yNzY3NDMxLjMzODkwOTQ4IDIuNTIxNDY3Ljc4ODYxNjE5IDMuNzIgMS4zNDQtMi4zNjQyNTMyIDE1LjcyODAzODktMTUuMzQyNTY3OSAyNy42OTkxOTMxLTMxLjIxIDI4Ljc4OC0uNDE1NzExMDQtMS4xMzkwNzM4LS43NDAwNjkyMy0yLjMwOTQzODUtLjk3LTMuNSAxMy44NzA4NjcxLTIuNTYyOTY0NSAyNC45ODMxOTA1LTEyLjk2MTUzNzggMjguNDYtMjYuNjMyem0tMTEuNTggMTUuOTQxYy0yLjc3OTc1NzItNC4xNzMzODM2LTQuNjE4OTAxMS04LjkwMTI0Ni01LjM5LTEzLjg1NiAxLjA2NzM4NzYtLjU4NzU5NTggMi4xNzk5MTAxLTEuMDg5MTgzOSAzLjMyNy0xLjUgMS4yMzE4NjYxIDQuMDkwMDM5NSAzLjEzNTUxMzYgNy45NDY2NzQ3IDUuNjMzIDExLjQxMi0xLjA4NTkxNjUgMS40MDUyNjA3LTIuMjc5NTE4MSAyLjcyMzkwNjItMy41NyAzLjk0NHptOS42MjUtMTYuMzY1Yy0uOTYwNTY4MyAzLjgzMDQ4NDctMi41ODgwODA3IDcuNDYxOTIyNS00LjgwOCAxMC43MjgtMi4xODg5LTMuMTU2NzQ2My0zLjg2NjQ4OTktNi42Mzg4MTY5LTQuOTcxLTEwLjMxOCAzLjE5MTk1NzEtLjg0MDI4MDY1IDYuNTI3OTA4NS0uOTgwMTQ1NjggOS43NzktLjQxem0tMTYuODU0IDMuNjM4Yy45MDMzMzE3IDUuMDM0MDY1OCAyLjg1MTUyOTggOS44MjI5NzQ0IDUuNzE5IDE0LjA1OC0xLjI5ODc4OTIgMS4wODg3NTMtMi42NzYyMDA5IDIuMDgwMTE1LTQuMTIxIDIuOTY2LTIuNjkwMzI5LTQuMjk2MjgwNS00LjQwNjI2LTkuMTMwMDM4LTUuMDI3LTE0LjE2MSAxLjA0ODI0ODUtMS4wNjI0MDgyIDIuMTk2NTcwMS0yLjAyMTE4NDggMy40MjktMi44NjN6bS00LjUyNyAzMy45OGMxNy4yNTI5NjYxLS44NDM5MSAzMS41MTI4ODI1LTEzLjc0NjE3NzUgMzQuMDczLTMwLjgyOSAxLjE4MjY2MyAxLjIzNjUzNDkgMi4yMjQzNzggMi42MDA1NTc4IDMuMTA2IDQuMDY3LTIuMDk1NDI4NyAxNy4wMzE5NjQ1LTE2LjU3MjYzMzMgMjkuODIxMjQyLTMzLjczMyAyOS44LS4xIDAtLjIgMC0uMyAwLTEuMTQyMTcwMi0uOTExMTM4Ni0yLjE5NTUzNDUtMS45MjgzNDE2LTMuMTQ2LTMuMDM4em0yMy4xMTItLjhjMy4zODY4NTQgMS4yMzM3ODMyIDYuOTM5MDk3OCAxLjk1NDQxMSAxMC41MzkgMi4xMzgtMS4yMDI0MTIzIDEuMTkzNzk4OS0yLjUzMjM5ODIgMi4yNTE4MTg0LTMuOTY2IDMuMTU1LTQuMDk3Mzc0NS0uMDgyMTE2OC04LjE0NzIwNTktLjg5NDg2LTExLjk1OS0yLjQgMS44NzQwODQ1LS44MDk1NDM4IDMuNjc1OTEyNy0xLjc3NzAzMTMgNS4zODYtMi44OTJ6bTEyLjI4NS4xOTJjLTMuNDgxMTUwNi0uMDE0ODY2NC02LjkzOTg3OC0uNTU4MDUzMS0xMC4yNTgtMS42MTEgMS4zODAxOTkxLTEuMDQxMTc3IDIuNjgzNTc0Ni0yLjE4MDQ2MDggMy45LTMuNDA5IDIuNzUyNDEuODUyNjc5NCA1LjU1NjAwOTkgMS41MzAzNjY0IDguMzk0IDIuMDI5LS41OTkyODYzIDEuMDQ5MDk5OC0xLjI4MDA0NjMgMi4wNDk1MDk0LTIuMDM2IDIuOTkyem0tNC44NDUtNi42NDNjMS4xMDIyMzAyLTEuMjU4MTE2NCAyLjExNTY3MjctMi41OTEzMjk2IDMuMDMzLTMuOTkgMi4wMTQ3NTYzLjc0ODIxNjQgNC4wODg2ODMgMS4zMjYyMzk5IDYuMiAxLjcyOC0uMzM4NjY3NSAxLjM4OTkzNDQtLjgwNzQwMTEgMi43NDQ5MDkzLTEuNCA0LjA0Ny0yLjY0MTgxNjItLjQ1MDE4OTItNS4yNTY3ODg1LTEuMDQ1NzYwNi03LjgzMy0xLjc4NHptLTI0LjYwNiAxMi4xOTRjMy4xMDIxMjk0LS4yMDkyMjgzIDYuMTY0MDExNi0uODE5OTkxMiA5LjEwOS0xLjgxNyAzLjU0ODU3NDEgMS42NDUwNzI0IDcuMzM5MjQ4OCAyLjcwNzA0MjEgMTEuMjI2IDMuMTQ1LTYuNjEzNjczNiAyLjc1Nzg4MTEtMTQuMTM2MTgzMyAyLjI2NjYxNTEtMjAuMzM1LTEuMzI4em0zNC4yMzYtMTYuNDE1Yy0xLjg4MDA2NC0uMzU2MjYzLTMuNzI5MTIzMS0uODYwMTU2Ny01LjUzLTEuNTA3IDEuOTIyODMxOC0zLjMzNzEwMTcgMy4yOTMxOTY5LTYuOTYzMjY3NCA0LjA1OC0xMC43MzggMS41OTU1MjY0IDMuODcxNzQwNSAyLjEwNDQ2NzggOC4xMDU0MjcxIDEuNDcyIDEyLjI0NXptMy4yNjQtMTkuNDljLS41NDY0MzEtLjAwMDcxNDUtMS4wNjg1NTE4LS4yMjU5Nzg2LTEuNDQ0LS42MjNsLS4wMDctLjAxMmgtLjAwNmMtLjY0Mzk0NjgtLjY5MTQwODctLjcxNDI0NjctMS43Mzk4MzY2LS4xNjgzNzExLTIuNTExMDI2Mi41NDU4NzU2LS43NzExODk1IDEuNTU4MDUwOS0xLjA1MzQwMjYgMi40MjQxOTk4LS42NzU5MTE1Ljg2NjE0OS4zNzc0OTExIDEuMzQ4NDYxMyAxLjMxMTA0MjMgMS4xNTUxNTcxIDIuMjM1ODkyMS0uMTkzMzA0Mi45MjQ4NDk3LTEuMDA5MTUxMiAxLjU4NzA3MDgtMS45NTM5ODU4IDEuNTg2MDQ1NnoiIGZpbGw9IiMwMDAiLz48L2c+PC9nPjwvc3ZnPg==" /></div>
+          </div>
 
+        
+          
+        <section id = "galerie" class = "galerie container section-py">
+            <h2>Galerie</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+          
+                <div class="item active">
+                  <img class="imgCarousel" src="img/pic1.jpg" style="height:800px;">
+                  <div class="carousel-caption">
+                    <h3>Pelote de laine</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend finibus mi vitae sagittis. Nunc imperdiet turpis non odio consectetur efficitur. Aenean elit dui, imperdiet non porta nec, commodo nec enim. Orci varius natoque penatibus et
+                    </p>
+                  </div>
+                </div>
+          
+                <div class="item">
+                  <img class="imgCarousel" src="img/pic2.jpg" style="height:800px;">
+                  <div class="carousel-caption">
+                    <h3>Gants</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend finibus mi vitae sagittis. Nunc imperdiet turpis non odio consectetur efficitur. Aenean elit dui, imperdiet non porta nec, commodo nec enim. Orci varius natoque penatibus et
+                    </p>
+                  </div>
+                </div>
+              
+                <div class="item">
+                  <img class="imgCarousel" src="img/pic3.jpg" style="height:800px;">
+                  <div class="carousel-caption">
+                    <h3>Pulls</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend finibus mi vitae sagittis. Nunc imperdiet turpis non odio consectetur efficitur. Aenean elit dui, imperdiet non porta nec, commodo nec enim. Orci varius natoque penatibus et
+                    </p>
+                  </div>
+                </div>
+            
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </section>
+          
 
         <footer><!-- footer start -->
             <div class="section container footer">
@@ -188,6 +246,8 @@
             </div>
         </footer><!-- footer end -->
   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!-- jQuery -->
         <script src = "js/jquery-3.5.1.js"></script>
         <!-- magnific popup -->
@@ -198,5 +258,6 @@
         <script src="js/script.js"></script>
         <!-- animate on scroll -->
         <script src = "js/aos.js"></script>
+        <script src = "js/galerie.js"></script>
     </body>
 </html>
