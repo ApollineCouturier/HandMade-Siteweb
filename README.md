@@ -1,5 +1,5 @@
 # HandMade-Siteweb
-Création d'un site web pour vendre des habits fait main.
+Création d'un site web pour vendre des habits fait main.  Il n'est pas encore fini, j'y travaille encore.
 
 Accueil:
 ========
