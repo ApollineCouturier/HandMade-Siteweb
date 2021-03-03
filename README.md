@@ -16,6 +16,12 @@ Les Articles:
 
 ![ScreenShot](https://github.com/ApollineCouturier/HandMade-Siteweb/blob/main/imgREADME/knit-articles.PNG)
 
+Galerie:
+========
+
+![ScreenShot](https://github.com/ApollineCouturier/HandMade-Siteweb/blob/main/imgREADME/knit-galerie.PNG)
+
+
 Bas de page:
 ============
 
