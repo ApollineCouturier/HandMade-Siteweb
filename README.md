@@ -20,9 +20,3 @@ Galerie:
 ========
 
 ![ScreenShot](https://github.com/ApollineCouturier/HandMade-Siteweb/blob/main/imgREADME/knit-galerie.PNG)
-
-
-Bas de page:
-============
-
-![ScreenShot](https://github.com/ApollineCouturier/HandMade-Siteweb/blob/main/imgREADME/knit-footer.PNG)
