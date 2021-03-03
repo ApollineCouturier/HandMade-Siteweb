@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
 :root{
     --persian-red: #ce3232;
     --dark: #363636;
@@ -136,21 +138,28 @@ h1, h2, h3, h4, h5, h6, p{
 /* header */
 .header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../img/mairie.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../img/background.jpg) center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
-.header h2{
-    font-size: 1.2rem;
-    color: #fff;
-    text-transform: uppercase;
-}
+
 .header-title{
+    background: -webkit-linear-gradient(rgb(212, 0, 166), rgb(133, 0, 167));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7rem;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 20%;
+}
+
+.header-sub{
     color: #fff;
-    font-size: 2.8rem;
-    padding: 1rem 0;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 25%;
+    margin-top: -80px;
 }
 .header button{
     width: 150px;
@@ -191,7 +200,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .h-divider {
     margin: auto;
-    margin-top: 200px;
+    margin-top: 50px;
     width: 80%;
     position: relative;
 }
@@ -230,6 +239,12 @@ h1, h2, h3, h4, h5, h6, p{
   max-width: 60px;
   border-radius: 100%;
   border: 1px dashed #aaa;
+}
+
+/*card*/
+.card-img-top {
+    height: 300px;
+    width: 100;
 }
 
 /*Footer*/
